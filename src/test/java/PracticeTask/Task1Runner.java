@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\resources\\Feature",glue = "TestCase1",dryRun = false,plugin = {"pretty"})
+@CucumberOptions(features = "src\\test\\resources\\Feature",glue = "TestCase1",dryRun = false,plugin = {"pretty"},tags = "@Test2")
 
 public class Task1Runner {
 
